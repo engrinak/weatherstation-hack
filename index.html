@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Temperature Station</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+Current Temperature Readings
+<br>
+<img src="weather_v2.png">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+
+<!-- Load Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+
+<script src="https://unpkg.com/chartjs-plugin-colorschemes@0.4.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+
+<div><canvas id="chart-container" style="height: 400px; width: 100%"></canvas></div>
+
+<script src="script.js"></script>
+
+
+
+
+# Display Last Values
+ <table style="width:75%">
+  <tr>
+    <th>T0</th>
+    <th>T1</th>
+    <th>T2</th>
+    <th>T3</th>
+    <th>TC</th>
+  </tr>
+  <tr>
+    <td style="text-align:center"><div id="T0"></div></td>
+    <td style="text-align:center"><div id="T1"></div></td>
+    <td style="text-align:center"><div id="T2"></div></td>
+    <td style="text-align:center"><div id="T3"></div></td>
+    <td style="text-align:center"><div id="T4"></div></td>
+  </tr>
+</table>
+
+<br><br>
+
